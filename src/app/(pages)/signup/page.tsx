@@ -64,8 +64,8 @@ const handleSubmit = async (e) => { //handlesubmit
   return (
     <div className={styles.createAccountContainer}>
         <Image
-        src="https://m.media-amazon.com/images/G/31/kfw/landing/img_logo_DKBL._CB612496475_.png"
-        alt="Amazon Kindle Logo"
+        src="https://dynamic.brandcrowd.com/asset/logo/517c7a8a-7da9-4b61-aab1-4a665f3ab306/logo-search-grid-1x?logoTemplateVersion=1&v=638505629239000000&text=BOOKISTA"
+        alt="My Books"
         width={150}
         height={50}
         className={styles.logo}
@@ -89,10 +89,10 @@ const handleSubmit = async (e) => { //handlesubmit
             <button type="submit" className={styles.createAccountButton}>Create your Amazon account</button>
         </form>
         <p className={styles.agreement}>
-            By clicking{' '}"Create your Amazon account",{' '}you agree to the{' '}
-            <a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_register_notification_condition_of_use?ie=UTF8&nodeId=200545940">Amazon Conditions of Use & Sale</a>{' '},{' '}the{' '}
-            <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=201014950">Kindle Store Terms of Use
-            </a>{' '}and{' '}<a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_register_notification_privacy_notice?ie=UTF8&nodeId=200534380">Amazon’s Privacy Notice</a>.
+            By clicking{' '}"Create your Bookista account",{' '}you agree to the{' '}
+            <a href="">Bookista Conditions of Use & Sale</a>{' '},{' '}the{' '}
+            <a href="">Kindle Store Terms of Use
+            </a>{' '}and{' '}<a href="">Bookista's Privacy Notice</a>.
         </p>
 
         <p className={styles.signin}>
