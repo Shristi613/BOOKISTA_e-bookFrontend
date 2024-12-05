@@ -56,8 +56,8 @@ const Page = () => {
     return (
         <div className={styles.signInContainer}>
             <Image
-                src="https://m.media-amazon.com/images/G/31/kfw/landing/img_logo_DKBL._CB612496475_.png"
-                alt="Amazon Kindle Logo"
+                src="https://dynamic.brandcrowd.com/asset/logo/517c7a8a-7da9-4b61-aab1-4a665f3ab306/logo-search-grid-1x?logoTemplateVersion=1&v=638505629239000000&text=BOOKISTA"
+                alt="My Books"
                 width={150}
                 height={50}
                 className={styles.logo}
@@ -81,19 +81,19 @@ const Page = () => {
                 >Sign in</button>
             </form>
             <p className={styles.agreement}>
-                By continuing, you agree to Amazon's
-                <a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=200545940">Conditions of Use </a>{' '}and{" "}
-                <a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=200534380">Privacy Notice</a>.
+                By continuing, you agree to Bookista's
+                <a href="">Conditions of Use </a>{' '}and{" "}
+                <a href="">Privacy Notice</a>.
                 <br></br>
                 <br></br>
                 <br></br>
                 By clicking{" "}Sign In", you agree to the{' '}
-                <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=201014950">Kindle Store Terms of Use</a>{" "}and{" "}
-                <a href="">Amazon’s Privacy Notice</a>.
+                <a href="">Kindle Store Terms of Use</a>{" "}and{" "}
+                <a href="">Bookista’s Privacy Notice</a>.
             </p>
 
             <p className={styles.createAccount}>
-                New to Amazon? <a href="/signup">Create your Amazon account</a>
+                New to Bookista? <a href="/signup">Create your Bookista account</a>
             </p>
         </div>
     )
